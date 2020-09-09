@@ -8,6 +8,7 @@ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
   
 <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">  
   <property name="host" value="smtp.gmail.com" />  
+    // Please change your password :)
     <property name="username" value="loosyhoppo581@gmail.com" />  
     <property name="password" value="Project11" />  
     <property name="javaMailProperties">  
